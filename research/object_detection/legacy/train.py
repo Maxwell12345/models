@@ -47,6 +47,9 @@ import os
 import tensorflow.compat.v1 as tf
 from tensorflow.python.util.deprecation import deprecated
 
+import sys
+sys.path.append('./')
+sys.path.append('./slim')
 
 from object_detection.builders import dataset_builder
 from object_detection.builders import graph_rewriter_builder
